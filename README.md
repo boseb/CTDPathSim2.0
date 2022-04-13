@@ -1,4 +1,4 @@
-# R package CTDPathSim2.0
+# CTDPathSim2.0
 R package CTDPathSim2.0 computes the similarity scores between patient tumor samples and cancer cell lines at genetic, genomic, and epigenetic levels integrating multi-omics datasets.
              It has five computational steps:
              Step 1. Computing sample-specific deconvoluted DNA methylation profile.
@@ -9,8 +9,10 @@ R package CTDPathSim2.0 computes the similarity scores between patient tumor sam
              
 # Installing the package
 install.packages("remotes")
+
 remotes::install_github("boseb/CTDPathSim2.0")
 
 # Check package vignette to run the tool
 library(CTDPathSim2.0)
+
 browseVignettes("CTDPathSim2.0")
