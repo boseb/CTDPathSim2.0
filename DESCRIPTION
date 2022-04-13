@@ -8,7 +8,7 @@ Authors@R:
            email = "banabithi.bose@gmail.com",
            comment = c(ORCID = "0000-0003-0842-8768"))
 Description: CTDPathSim2.0 computes the similarity scores between patient tumor samples and cancer cell lines at genetic, genomic, and epigenetic levels integrating multi-omics datasets.
-It has five computational steps:
+             It has five computational steps:
              Step 1. Computing sample-specific deconvoluted DNA methylation profile.
              Step 2. Computing sample-specific deconvoluted expression profile.
              Step 3: Computing sample and cell line-specific differentially expressed (DE) genes and biological pathways.
